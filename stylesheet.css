@@ -44,7 +44,7 @@ a:hover
 {
     color: aqua;
 }
-//Home page
+/*Home page*/
 .day-box PREP
 {
     
@@ -57,24 +57,17 @@ a:hover
 {
     
 }
-//myAccount page
 
-//ClassMates page
-img 
+img.person_image
 {
     width: 80px;
     height: 110px;
 }
-img.person_image
-{
-    width: 100px;
-    height: 105px;
-}
-//Grades page
+/*Grades page*/
 
-//Seating page
+/*Seating page*/
 
-//logout page
+/*logout page*/
 .login_link
 {
     font-size: 25px;
