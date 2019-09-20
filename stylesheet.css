@@ -25,8 +25,7 @@ table,tr,td
 div 
 {
     border: 3px solid black;
-    height: 50%;
-    width: 50%;
+    
 }
 .nav
 {
@@ -61,9 +60,17 @@ a:hover
 //myAccount page
 
 //ClassMates page
-
+.person_image
+{
+    width: 100px;
+    height: 105px;
+}
 //Grades page
 
 //Seating page
 
 //logout page
+.login_link
+{
+    font-size: 25px;
+}
