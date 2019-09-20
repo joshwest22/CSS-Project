@@ -29,9 +29,14 @@ div
 }
 .nav
 {
-    position: absolute;
+    position: relative;
     text-align: center;
+    font-size: 25px;
+    font-family: marioFont;
 }
+@font-face{
+        font-family: marioFont;
+        src: url(eightbitWonder.ttf);}
 a:link
 {
     color:aquamarine;
@@ -58,6 +63,7 @@ a:hover
     
 }
 
+/*Classmates*/
 img.person_image
 {
     width: 80px;
