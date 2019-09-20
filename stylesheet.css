@@ -24,19 +24,21 @@ table,tr,td
 }
 div 
 {
-    border: 3px solid black;
+    border: 2px solid black;
     
 }
-.nav
+div.nav
 {
     position: relative;
     text-align: center;
     font-size: 25px;
     font-family: marioFont;
 }
-@font-face{
+@font-face
+{
         font-family: marioFont;
-        src: url(eightbitWonder.ttf);}
+        src: url(eightbitWonder.ttf);
+}
 a:link
 {
     color:aquamarine;
