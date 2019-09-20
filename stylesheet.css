@@ -22,6 +22,12 @@ table,tr,td
     border: 2px solid black;
     border-collapse: collapse;
 }
+div 
+{
+    border: 3px solid black;
+    height: 50%;
+    width: 50%;
+}
 .nav
 {
     position: absolute;
@@ -39,3 +45,25 @@ a:hover
 {
     color: aqua;
 }
+//Home page
+.day-box PREP
+{
+    
+}
+.day-box CURRENT
+{
+    
+}
+.day-box COMPLETED
+{
+    
+}
+//myAccount page
+
+//ClassMates page
+
+//Grades page
+
+//Seating page
+
+//logout page
