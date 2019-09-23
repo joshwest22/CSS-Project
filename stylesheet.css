@@ -4,9 +4,14 @@ background-image: linear-gradient(rgba(4, 58, 108, 0.94),rgba(55, 122, 0, 0.76),
 background-size: 100%;
 color: aliceblue;   
 }
+span.username
+{
+    font-size: 30px;
+    font-family: marioFont;
+}
 h1
 {
-    
+    font-family: marioFont;
 }
 h2
 {
@@ -37,7 +42,7 @@ div.nav
 @font-face
 {
         font-family: marioFont;
-        src: url(eightbitWonder.ttf);
+        src: url(https://joshwest22.github.io/CSS-Project/eightbitWonder.TTF);
 }
 a:link
 {
@@ -52,17 +57,35 @@ a:hover
     color: aqua;
 }
 /*Home page*/
+.day
+{
+    font-size: 32px; 
+    font-weight: bold;
+    text-shadow: 2px 1px darkgray;
+}
 .day-box PREP
 {
     
 }
+.reading
+{
+    font-size: 20px;
+}
 .day-box CURRENT
 {
-    
+   background-color: dodgerblue;
 }
 .day-box COMPLETED
 {
-    
+     
+}
+.assignment-title
+{
+    font-size:20px;
+}
+.assignment-label
+{
+    font-size: 20px;
 }
 
 /*Classmates*/
