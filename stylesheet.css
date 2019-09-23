@@ -29,7 +29,7 @@ table,tr,td
 }
 div 
 {
-    border: 2px solid black;
+    
     
 }
 div.nav
@@ -38,6 +38,7 @@ div.nav
     text-align: center;
     font-size: 25px;
     font-family: marioFont;
+    border: 2px solid black;
 }
 @font-face
 {
@@ -65,7 +66,7 @@ a:hover
 }
 .day-box PREP
 {
-    
+   border: 2px solid black; 
 }
 .reading
 {
@@ -73,11 +74,11 @@ a:hover
 }
 .day-box CURRENT
 {
-   background-color: dodgerblue;
+   border: 2px solid black;
 }
 .day-box COMPLETED
 {
-     
+   border: 2px solid black;  
 }
 .assignment-title
 {
