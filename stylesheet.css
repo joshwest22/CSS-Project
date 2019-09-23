@@ -47,17 +47,24 @@ div.nav
 }
 a:link
 {
-    color:aquamarine;
+    color:#0468D0;
 }
 a:visited
 {
-    color:chartreuse;
+    color:#003D8D;
 }
 a:hover
 {
-    color: aqua;
+    color: #F80E24;
 }
 /*Home page*/
+#special1
+{
+    width: 75%;
+    height: 75%;
+    float: left;
+    background-image:
+}
 .day
 {
     font-size: 32px; 
@@ -95,10 +102,21 @@ img.person_image
     width: 80px;
     height: 110px;
 }
+#special1
+{
+    background-image: url(https://img00.deviantart.net/8b9e/i/2019/210/c/4/character_sheet__mario__revision_1__by_prastarkeepers-ddcuclg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width: 200px;
+}
 /*Grades page*/
 
 /*Seating page*/
-
+rect
+{
+    fill:black;
+}
 /*logout page*/
 .login_link
 {
