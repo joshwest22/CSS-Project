@@ -21,6 +21,10 @@ h3
 {
     
 }
+ul 
+{
+    list-style-image: url("coin.jpg");
+}
 table,tr,td 
 {
     text-align: center;
@@ -110,6 +114,7 @@ img.person_image
     height: 270px;
     width: 200px;
 }
+
 /*Grades page*/
 
 /*Seating page*/
