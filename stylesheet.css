@@ -1,6 +1,6 @@
 body,html 
 {
-background-image: linear-gradient(rgba(4, 58, 108, 0.94),rgba(55, 122, 0, 0.76),rgba(0, 112, 67, 0.93)), url("https://live.staticflickr.com/3535/4566449122_462543fffd_z.jpg");
+background-image: linear-gradient(to right, rgba(0, 62, 143, 0.91),rgba(56, 120, 204, 0.91)), url("https://live.staticflickr.com/3535/4566449122_462543fffd_z.jpg");
 background-size: 100%;
 color: aliceblue;   
 }
