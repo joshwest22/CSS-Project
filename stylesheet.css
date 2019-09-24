@@ -56,7 +56,9 @@ div.nav
     text-align: center;
     font-size: 25px;
     font-family: marioFont;
-    border: 2px solid white;
+    border: 5px solid #F80E24;
+    border-radius: 38px;
+    padding: 1%;
 }
 @font-face
 {
@@ -65,15 +67,15 @@ div.nav
 }
 a:link
 {
-    color:#0468D0;
+    color:#fdf801;/*#0468D0* - Previous color*/
 }
 a:visited
 {
-    color:#003D8D;
+    color:#F80E24;/*#003D8D - Previous color*/
 }
 a:hover
 {
-    color: #F80E24;
+    color: white;/*#F80E24 - Previous color*/
 }
 /*Home page*/
 #special1
@@ -85,8 +87,8 @@ a:hover
     height: 270px;
     width: 200px;
     top: 50%;
-    left: 50%;
-    margin-top: -100px;
+    left: 85%;
+    margin-top: -0px;
     margin-bottom: -100px;
 }
 .day
