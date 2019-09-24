@@ -1,12 +1,13 @@
 body,html 
 {
-background-image: linear-gradient(to right, rgba(0, 62, 143, 0.91),rgba(56, 120, 204, 0.91)), url("https://live.staticflickr.com/3535/4566449122_462543fffd_z.jpg");
+background-image: linear-gradient(to right, rgba(8, 55, 89, 0.92), rgba(0, 62, 143, 0.91), rgba(56, 120, 204, 0.91)), url("https://live.staticflickr.com/3535/4566449122_462543fffd_z.jpg");
 background-size: 100%;
-color: aliceblue;   
+color: white; 
+font-size: 20px;
 }
 span.username
 {
-    font-size: 30px;
+    font-size: 26px;
     font-family: marioFont;
 }
 h1
@@ -15,26 +16,39 @@ h1
 }
 h2
 {
-    
+    font-family: 'Cabin', sans-serif;
 }
 h3
 {
-    
+    font-family: 'Cabin', sans-serif;
+}
+p
+{
+    font-family: 'Cabin', sans-serif;
 }
 ul 
 {
     list-style-image: url("coin.jpg");
+}
+li
+{
+    font-family: 'Cabin', sans-serif;
 }
 table,tr,td 
 {
     text-align: center;
     border: 2px solid black;
     border-collapse: collapse;
+    font-family: 'Cabin', sans-serif;
+}
+iframe
+{
+    width: 450px;
+    height: 650px;
 }
 div 
 {
-    
-    
+       
 }
 div.nav
 {
@@ -42,7 +56,7 @@ div.nav
     text-align: center;
     font-size: 25px;
     font-family: marioFont;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 @font-face
 {
@@ -64,10 +78,16 @@ a:hover
 /*Home page*/
 #special1
 {
-    width: 75%;
-    height: 75%;
-    float: left;
-    background-image:
+    background-image: url(https://img00.deviantart.net/8b9e/i/2019/210/c/4/character_sheet__mario__revision_1__by_prastarkeepers-ddcuclg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    height: 270px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-bottom: -100px;
 }
 .day
 {
@@ -93,26 +113,18 @@ a:hover
 }
 .assignment-title
 {
-    font-size:20px;
+    font-size:23px;
 }
 .assignment-label
 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 /*Classmates*/
 img.person_image
 {
-    width: 80px;
-    height: 110px;
-}
-#special1
-{
-    background-image: url(https://img00.deviantart.net/8b9e/i/2019/210/c/4/character_sheet__mario__revision_1__by_prastarkeepers-ddcuclg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 270px;
-    width: 200px;
+    width: 120px;
+    height: 165px;
 }
 
 /*Grades page*/
