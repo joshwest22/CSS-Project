@@ -43,8 +43,8 @@ table,tr,td
 }
 iframe
 {
-    width: 450px;
-    height: 650px;
+    width: 1152px;
+    height: 648px;
 }
 div 
 {
@@ -59,6 +59,7 @@ div.nav
     border: 5px solid #F80E24;
     border-radius: 38px;
     padding: 1%;
+    float: left;
 }
 @font-face
 {
@@ -83,7 +84,7 @@ a:hover
     background-image: url(https://img00.deviantart.net/8b9e/i/2019/210/c/4/character_sheet__mario__revision_1__by_prastarkeepers-ddcuclg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: sticky;
     height: 270px;
     width: 200px;
     top: 50%;
@@ -128,7 +129,12 @@ img.person_image
     width: 120px;
     height: 165px;
 }
-
+.partners
+{
+    float: right;
+    margin-top: -175px;
+    clear: both;
+}
 /*Grades page*/
 
 /*Seating page*/
