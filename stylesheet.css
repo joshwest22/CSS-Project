@@ -4,7 +4,6 @@ background-image: linear-gradient(to right, rgba(8, 55, 89, 0.92), rgba(0, 62, 1
 background-size: 100%;
 color: white; 
 font-size: 20px;
-    padding-left: 5px;
 }
 span.username
 {
@@ -49,7 +48,7 @@ iframe
 }
 div 
 {
-       
+ border-bottom: 2px solid white;      
 }
 div.nav
 {
@@ -61,6 +60,7 @@ div.nav
     border-radius: 38px;
     padding: 1%;
     float: left;
+    margin-left: 18%;
 }
 @font-face
 {
@@ -85,13 +85,24 @@ a:hover
     background-image: url(https://img00.deviantart.net/8b9e/i/2019/210/c/4/character_sheet__mario__revision_1__by_prastarkeepers-ddcuclg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: sticky;
+    position: fixed;
     height: 270px;
     width: 200px;
     top: 50%;
     left: 85%;
     margin-top: -0px;
     margin-bottom: -100px;
+}
+.account_form
+{
+    float:left;
+    padding-top:220px;
+    text-align: center;
+}
+input[type=text]
+{
+border-radius:6px;
+width:10%;
 }
 .day
 {
