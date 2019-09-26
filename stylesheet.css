@@ -4,6 +4,7 @@ background-image: linear-gradient(to right, rgba(8, 55, 89, 0.92), rgba(0, 62, 1
 background-size: 100%;
 color: white; 
 font-size: 20px;
+    padding-left: 5px;
 }
 span.username
 {
