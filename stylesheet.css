@@ -81,19 +81,7 @@ a:hover
     color: white;/*#F80E24 - Previous color*/
 }
 /*Home page*/
-#special1
-{
-    background-image: url(https://img00.deviantart.net/8b9e/i/2019/210/c/4/character_sheet__mario__revision_1__by_prastarkeepers-ddcuclg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    height: 270px;
-    width: 200px;
-    top: 27%;
-    left: 85%;
-    margin-top: -0px;
-    margin-bottom: -100px;
-}
+
 .account_form
 {
     float:left;
